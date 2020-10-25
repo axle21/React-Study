@@ -1,0 +1,11 @@
+.parent {
+  min-height: 100vh; // height of the browser viewport
+  display: grid;
+  place-items: center;
+
+  .child button {
+    margin: 5px;
+    height: auto;
+    font-size: large;
+  }
+}
